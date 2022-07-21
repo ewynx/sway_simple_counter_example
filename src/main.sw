@@ -6,7 +6,7 @@ abi MyContract {
 }
 
 storage {
-    counter: u64,
+    counter: u64 = 0
 }
 
 impl MyContract for Contract {
